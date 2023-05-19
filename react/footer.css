@@ -1,0 +1,21 @@
+.footerContainerStyle  {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .footerColumn  {
+    margin-right : 250px;
+  }
+
+  .listItemStyle  {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .items  {
+    text-decoration : none;
+    color : black;
+  }
+  .heading  {
+    margin-left : 40px;
+  }
