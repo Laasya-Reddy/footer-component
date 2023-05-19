@@ -9,3 +9,15 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+.socialNetworksContainer--footersection{
+  justify-content: end;
+  margin-right: 30px;
+  margin-top: -8px;
+}
+@media (max-width: 767px){
+  .socialNetworksContainer--footersection{
+    justify-content: end;
+    margin-right: 0px;
+    margin-top: -8px;
+  }
+}

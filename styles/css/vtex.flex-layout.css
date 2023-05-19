@@ -92,7 +92,19 @@
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }
+:global(.vtex-store-footer-2-x-socialNetworksContainer--footersection) {
+  justify-content: end;
+}
+@media (max-width: 767px){
+:global(.vtex-store-footer-2-x-socialNetworksContainer--footersection) {
+  justify-content: end;
+}}
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+@media (max-width: 767px){
+  :global(.vtex-flex-layout-0-x-flexRowContent--footersection){
+    display: flex;
+  }}
+  

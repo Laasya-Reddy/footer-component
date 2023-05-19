@@ -1,0 +1,47 @@
+.footerContainerStyle = {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  };
+
+  .footerColumnStyle = {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+  };
+
+  .listItemStyle = {
+    list-style: none;
+    margin-bottom: 10px;
+  };
+
+  .itemsStyle = {
+    text-decoration: none;
+    color: black;
+  };
+
+  .headingContainerStyle = {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justifyC-content : space-between;
+    flex-direction: row;
+  };
+
+  .headingStyle = {
+    margin-left: 10px;
+  };
+
+  .plusMinusIconStyle = {
+    cursor: pointer;
+    margin-left: 300px;
+    
+  };
+  :global(.vtex-store-theme-5-x-plusMinusIconStyle){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 5%;
+  }
